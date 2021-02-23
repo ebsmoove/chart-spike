@@ -1,6 +1,6 @@
 import React from "react";
 import Chart from "react-google-charts";
-import {twoColumnData} from "./data";
+import { twoColumnData } from "./data";
 const GoogleCharts = () => (
   <div style={{ display: "flex", flexDirection: "column", maxWidth: 900 }}>
     <Chart
@@ -14,11 +14,11 @@ const GoogleCharts = () => (
         chartArea: { width: "30%" },
         hAxis: {
           title: "Total Population",
-          minValue: 0
+          minValue: 0,
         },
         vAxis: {
-          title: "City"
-        }
+          title: "City",
+        },
       }}
       legendToggle
     />
@@ -33,9 +33,8 @@ const GoogleCharts = () => (
         chartArea: { width: "30%" },
         hAxis: {
           title: "Total Population",
-          minValue: 0
+          minValue: 0,
         },
- 
       }}
       legendToggle
     />
